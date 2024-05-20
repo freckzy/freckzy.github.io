@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'Jersey': ['Jersey', 'sans-serif'],
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body> 
+<!-- Nav Bar -->
+
+<nav class="border-gray-200 dark:bg-gray-900">
+
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    </a>
+
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only ">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="  font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class=" block py-2 px-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
+            Home</a>
+        </li>
+
+        <li>
+          <a href="#" class=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+            Materie</a>
+        </li>
+
+        <li>
+          <a href="#" class=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+            Chi Siamo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--------------------------------------------->
+
+<!---Container di base -->
+    <div class="bg-white py-16">
+        <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
+          <div class="mx-auto max-w-2xl my-2">
+            <h2 class=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Il nostro team di lavoro</h2>
+            <p class="mt-4 text-lg leading-8 text-gray-600">Ecco il gruppo che ha partecipato alla realizzazione del progetto.</p>
+          </div>
+<!-------------->
+
+<!----Cards Team Manager -->
+          <h4 class="py-10 my-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">Capi progetto</h4>
+
+          <ul role="list" class="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+
+
+            <li>
+              <img class="mx-auto h-32 w-32 rounded-full" src="" alt="">
+              <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Vincenzo Barbato</h3>
+              <p class="text-sm leading-6 text-gray-600">Project Manager</p>
+              <ul role="list" class="mt-6 flex justify-center gap-x-6">
+                <li>
+                </li>
+            </ul>
+          </li>
+
+<li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Gennaro Murri</h3>
+    <p class="text-sm leading-6 text-gray-600">Team-Manager Full-stack</p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+      </li>
+  </ul>
+</li>
+
+<li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Mattia Daniele</h3>
+    <p class="text-sm leading-6 text-gray-600">Team-Manager Front-end</p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+      </li>
+  </ul>
+</li>
+         
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900"> Marco Avolio </h3>
+  <p class="text-sm leading-6 text-gray-600">Team-Manager Risorse </p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+    <li>
+    </li>
+</ul>
+</li>
+    
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900"> Mario Esposito </h3>
+  <p class="text-sm leading-6 text-gray-600">Team-Manager Design</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+    <li>
+    </li>
+</ul>
+</li>
+
+</ul>
+  </div>
+</div>
+<!-------------->
+
+
+<!------ FrontEnd e BackEnd e Design ------>
+<div class="bg-white py-1">
+  <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
+<h4 class="my-5 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">Software & Design </h4>
+
+<ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+  <li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Aniello Giuditta</h3>
+    <p class="text-sm leading-6 text-gray-600">Back-End Developer</p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+      </li>
+  </ul>
+</li>
+
+<li>
+<img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+<h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Giovanni Pierro</h3>
+<p class="text-sm leading-6 text-gray-600">Front-end Developer</p>
+<ul role="list" class="mt-6 flex justify-center gap-x-6">
+<li>
+  </li>
+ </ul>
+</li>
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Mario Romaniello</h3>
+  <p class="text-sm leading-6 text-gray-600">Front-end Developer</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li>
+
+  <li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Giuseppe Ruggiero </h3>
+    <p class="text-sm leading-6 text-gray-600">Designer</p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+    <li>
+    </li>
+  </ul>
+</li>
+
+    <li>
+      <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+      <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Emanuele Tammaro </h3>
+      <p class="text-sm leading-6 text-gray-600">Designer</p>
+      <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Andrea Carnozza </h3>
+  <p class="text-sm leading-6 text-gray-600">Designer</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+</ul>
+  </div>
+</div>
+<!----------------->
+
+ <!-- Ricerca Shit -->
+ <div class="bg-white py-1">
+  <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
+<h4 class="my-5 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">Team Ricerca & Risorse </h4>
+
+<ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+  <li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Gabriele Roscigno </h3>
+    <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+      </li>
+  </ul>
+</li>
+
+<li>
+<img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+<h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Giuliano Mallardo</h3>
+<p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+<ul role="list" class="mt-6 flex justify-center gap-x-6">
+<li>
+  </li>
+ </ul>
+</li>
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Antonio Sansone</h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li>
+
+  <li>
+    <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Alexandro Visconti </h3>
+    <p class="text-sm leading-6 text-gray-600">Ricercatore </p>
+    <ul role="list" class="mt-6 flex justify-center gap-x-6">
+    <li>
+    </li>
+  </ul>
+</li>
+
+    <li>
+      <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+      <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Alessio Vassallo </h3>
+      <p class="text-sm leading-6 text-gray-600">Ricercatore </p>
+      <ul role="list" class="mt-6 flex justify-center gap-x-6">
+      <li>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Giuseppe Giliberti </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Daniele Bianco </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Francesco Chiariello </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Gaetano De Biase </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Francesco Esposito </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+<li>
+  <img class="mx-auto h-32 w-32 rounded-full" src="images/foto.png" alt="">
+  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Alessandro Redi </h3>
+  <p class="text-sm leading-6 text-gray-600">Ricercatore</p>
+  <ul role="list" class="mt-6 flex justify-center gap-x-6">
+  <li>
+  </li>
+ </ul>
+</li> 
+
+</ul>
+  </div>
+</div> 
+
+</body>
+
+
+
+</html>
